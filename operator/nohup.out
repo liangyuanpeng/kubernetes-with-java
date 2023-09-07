@@ -1,0 +1,61 @@
+v0.20.0-v1.29.0-alpha.0-591-gabb74c7afa4: Pulling from liangyuanpeng/kindest/node
+f86a56ded609: Already exists
+ecf11b274e16: Pulling fs layer
+ecf11b274e16: Retrying in 5 seconds
+ecf11b274e16: Retrying in 4 seconds
+ecf11b274e16: Retrying in 3 seconds
+ecf11b274e16: Retrying in 2 seconds
+ecf11b274e16: Retrying in 1 second
+ecf11b274e16: Retrying in 10 seconds
+ecf11b274e16: Retrying in 9 seconds
+ecf11b274e16: Retrying in 8 seconds
+ecf11b274e16: Retrying in 7 seconds
+ecf11b274e16: Retrying in 6 seconds
+ecf11b274e16: Retrying in 5 seconds
+ecf11b274e16: Retrying in 4 seconds
+ecf11b274e16: Retrying in 3 seconds
+ecf11b274e16: Retrying in 2 seconds
+ecf11b274e16: Retrying in 1 second
+ecf11b274e16: Downloading
+ecf11b274e16: Retrying in 15 seconds
+ecf11b274e16: Retrying in 14 seconds
+ecf11b274e16: Retrying in 13 seconds
+ecf11b274e16: Retrying in 12 seconds
+ecf11b274e16: Retrying in 11 seconds
+ecf11b274e16: Retrying in 10 seconds
+ecf11b274e16: Retrying in 9 seconds
+ecf11b274e16: Retrying in 8 seconds
+ecf11b274e16: Retrying in 7 seconds
+ecf11b274e16: Retrying in 6 seconds
+ecf11b274e16: Retrying in 5 seconds
+ecf11b274e16: Retrying in 4 seconds
+ecf11b274e16: Retrying in 3 seconds
+ecf11b274e16: Retrying in 2 seconds
+ecf11b274e16: Retrying in 1 second
+ecf11b274e16: Downloading
+ecf11b274e16: Retrying in 20 seconds
+ecf11b274e16: Retrying in 19 seconds
+ecf11b274e16: Retrying in 18 seconds
+ecf11b274e16: Retrying in 17 seconds
+ecf11b274e16: Retrying in 16 seconds
+ecf11b274e16: Retrying in 15 seconds
+ecf11b274e16: Retrying in 14 seconds
+ecf11b274e16: Retrying in 13 seconds
+ecf11b274e16: Retrying in 12 seconds
+ecf11b274e16: Retrying in 11 seconds
+ecf11b274e16: Retrying in 10 seconds
+ecf11b274e16: Retrying in 9 seconds
+ecf11b274e16: Retrying in 8 seconds
+ecf11b274e16: Retrying in 7 seconds
+ecf11b274e16: Retrying in 6 seconds
+ecf11b274e16: Retrying in 5 seconds
+ecf11b274e16: Retrying in 4 seconds
+ecf11b274e16: Retrying in 3 seconds
+ecf11b274e16: Retrying in 2 seconds
+ecf11b274e16: Retrying in 1 second
+ecf11b274e16: Verifying Checksum
+ecf11b274e16: Download complete
+ecf11b274e16: Pull complete
+Digest: sha256:6e0201c58889b9f21195927d3edc4f1e5d3b7431bb428c6dfbb05b12af9e65e5
+Status: Downloaded newer image for 192.168.3.103:5004/liangyuanpeng/kindest/node:v0.20.0-v1.29.0-alpha.0-591-gabb74c7afa4
+192.168.3.103:5004/liangyuanpeng/kindest/node:v0.20.0-v1.29.0-alpha.0-591-gabb74c7afa4

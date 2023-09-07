@@ -1,0 +1,7 @@
+apiVersion: "lank8s.cn/v1alpha1"
+kind: MyTomcat
+metadata:
+  name: hello
+spec:
+  name: mytomcat
+  image: tomcat:9.0.80-jre17-temurin
