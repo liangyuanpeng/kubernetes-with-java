@@ -8,8 +8,10 @@ import io.fabric8.kubernetes.api.model.apps.DeploymentSpec;
 import io.fabric8.kubernetes.api.model.apps.DeploymentSpecBuilder;
 import io.fabric8.kubernetes.client.DefaultKubernetesClient;
 import io.fabric8.kubernetes.client.KubernetesClient;
+import io.fabric8.kubernetes.client.RequestConfig;
 import io.fabric8.kubernetes.client.informers.ResourceEventHandler;
 import io.fabric8.kubernetes.client.informers.SharedIndexInformer;
+import io.fabric8.openshift.api.model.SubjectAccessReview;
 import io.fabric8.zjsonpatch.internal.guava.Lists;
 import io.javaoperatorsdk.operator.api.reconciler.Context;
 import io.javaoperatorsdk.operator.api.reconciler.ControllerConfiguration;
@@ -32,6 +34,19 @@ public class MyTomcatReconciler implements Reconciler<MyTomcat> {
 
   public MyTomcatReconciler() {
     this(new DefaultKubernetesClient());
+
+    GenericKubernetesResource genericKubernetesResource = new GenericKubernetesResourceBuilder()
+            .withKind("")
+            .withApiVersion("")
+            .withNewMetadata()
+            .withName("")
+            .endMetadata()
+            .build();
+    kubernetesClient.genericKubernetesResources("","")
+            .inNamespace("")
+            .resource(genericKubernetesResource)
+            .create();
+
     SharedIndexInformer<Deployment> inform = kubernetesClient.apps()
             .deployments()
             .inform();
